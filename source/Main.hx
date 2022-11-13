@@ -185,7 +185,7 @@ class Main extends Sprite
 	
 			Sys.println(errMsg);
 			Application.current.window.alert(errMsg, "Error!");
-			DiscordClient.shutdown();
+			
 			Sys.exit(1);
 		}
 }
